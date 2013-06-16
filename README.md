@@ -1,4 +1,4 @@
-theclassshop.github.io
-======================
+theclassshop-com
+================
 
-Sourcecode for website theclassshop.com
+sourcecode for website [theclassshop](http://www.theclassshop.com)
