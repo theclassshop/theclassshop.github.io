@@ -36,7 +36,12 @@ body>.container {
 }
 
 .section-home article {
-  background-color: #FFF;
+  background-color: #F7F7F7;
+  padding: 20px;
+}
+
+.section-services>article {
+  margin-top: 2em;
 }
 
 .section-contacto {
@@ -52,9 +57,8 @@ article>header {
   background-color: #FFF;
 }
 
-
 article>p {
-  min-height: 200px;
+  /*min-height: 200px;*/
 }
 
 article h3 {
@@ -62,4 +66,8 @@ article h3 {
   display: inline;
   padding-top: 0.2em;
   color: #262626;
+}
+
+article>.description {
+  padding: 2em 0;
 }
