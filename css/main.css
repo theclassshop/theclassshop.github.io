@@ -3,17 +3,63 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+h1, h2, p {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+body {
+  background-color: #E7E7E8;
+}
+
+body>.container {
+  background-color: #FFF; 
+}
+
+.section-home {
+  background-color: #FFF;
+}
+
+.section-home article {
+  background-color: #FFF;
+}
+
+.section-contacto {
+  color: #E7E7E8;
+  background-color: #262626;
+}
+
+article {
+  background-color: #EEE7D4;
+}
+
+article>header {
+  background-color: #FFF;
+}
 
 
+article>p {
+  min-height: 200px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+article h3 {
+  border-top: 1px solid #262626;
+  display: inline;
+  padding-top: 0.2em;
+  color: #262626;
+}
