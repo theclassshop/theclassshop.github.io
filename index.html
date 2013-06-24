@@ -22,58 +22,45 @@
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <div class="nav-collapse collapse">
-                    <ul class="nav">
-                        <li>
-                            <a href="#home">home</a>
-                        </li>
-                        <li>
-                            <a href="#classes-particulares">classes particulares</a>
-                        </li>
-                        <li>
-                            <a href="#classes-grupo">classes grupo</a>
-                        </li>
-                        <li>
-                            <a href="#contacto">contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <div class="container">
+    
+    <div class="container wrapper">
+
         <!-- intro -->
-        <section id="home" class="section-home">
-            <header>
+        <section id="home" class="section-home row">
+            <header class="span12">
                 <div class="content">
-                    <h1>THE CLASS SHOP ø BARCELONA</h1>
+                    <a href="/" class="title">
+                        <h1>THE CLASS SHOP <em>BARCELONA</em></h1>
+                    </a>
                 </div>
-                <div class="text-center">
-                    <img src="img/header.jpg" alt="The Class Shop">
-                </div>
+                
+                <img class="rad3" src="http://farm4.staticflickr.com/3790/9107775899_8216e7934b_h.jpg" alt="The Class Shop">
+                
             </header>
 
-            <article>
-                <h2 class="text-center">ENTRENAMIENTO PERSONAL</h2>
-                <p>Dis est egestas sed pellentesque, pede neque laoreet suspendisse aptent lorem luctus cubilia euismod dolor consectetuer cursus at nisi ad non massa vitae ullamcorper nam mi fermentum dui taciti aliquet dictumst vestibulum suscipit potenti sociis fringilla interdum quis.</p>
+            <article class="span12">
+                <div class="row">
+                    <div class="span12">
+                        <h2 class="text-center">ENTRENAMIENTO PERSONAL</h2>
+                    </div>
+                    <div class="offset2 span8">
+                        <p>Dis est egestas sed pellentesque, pede neque laoreet suspendisse aptent lorem luctus cubilia euismod dolor consectetuer cursus at nisi ad non massa vitae ullamcorper nam mi fermentum dui taciti aliquet dictumst vestibulum suscipit potenti sociis fringilla interdum quis.</p>
+                        
+                    </div>
+                </div>
             </article>
         </section>
+
         <!-- services -->
-        <section class="section-services">
+        <section class="section-services row">
+
             <!-- photoshop -->
-            <article id="classes-photoshop">
-                <header class="text-center">
+            <article id="classes-photoshop" class="span12">
+                <header class="text-center row">
                     <div class="content">
                         <h3>CLASSES PHOTOSHOP</h3>
                     </div>
+                    
                     <img src="img/photoshop.png" alt="classes photoshop">
                 </header>
                 <div class='description'>
@@ -99,9 +86,10 @@
                     </div>
                 </div>
             </article>
+
             <!-- illustrator -->
-            <article id="classes-illustrator">
-                <header class="text-center">
+            <article id="classes-illustrator" class="span12">
+                <header class="text-center row">
                     <div class="content">
                         <h3>CLASSES ILLUSTRATOR</h3>
                     </div>
@@ -134,17 +122,34 @@
         </section>
         <!-- contact -->
         <section class="section-contacto">
-            <div class="text-center">
-                <a class="btn btn-danger" href="mailto:theclassshop@gmail.com">MÁS INFO</a>
-            </div>
-            <p>the class shop ©2013</p>
         </section>
 
-        <footer>
-            
-        </footer>
 
     </div> <!-- /container -->
+    <footer class="">
+        <div class="container">
+            <div class="row">
+                <div class="span8">
+                    <!-- <div class="text-center">
+                        <a class="btn btn-danger" href="mailto:theclassshop@gmail.com">MÁS INFO</a>
+                    </div> -->
+                    <p>Euismod Auctor</p>
+                    <p>987 654 321</p>
+                    <p>The Class Shop ©2013</p>
+                </div>
+                <form class="span4">
+                  <fieldset>
+                    <label>subscribite a the class shop</label>
+                    <div class="input-append">
+                        <input type="text" placeholder="Your email">
+                        <button type="submit" class="btn btn-inverse">send</button>
+                    </div>
+                  </fieldset>
+                </form>
+                
+            </div>
+        </div>
+    </footer>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>

@@ -3,6 +3,7 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 h1, h2, p {
   font-family: 'Droid Sans', sans-serif;
 }
@@ -12,7 +13,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 24px;
+  /*padding-left: 1em;*/
 }
 
 h2 {
@@ -27,47 +29,92 @@ body {
   background-color: #E7E7E8;
 }
 
-body>.container {
+/* - - - - - - - - - - - - - - utils */
+.rad3 {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* - - - - - - - - - - - - - - elements generic */
+article .description {
+  padding: 30px 0;
+  border-top: 2px solid white;
+  background-color: #EEE7D4;
+
+  -webkit-box-shadow: inset 0px -4px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0px -4px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+body>.wrapper {
   background-color: #FFF; 
 }
 
-.section-home {
-  background-color: #FFF;
+
+/* - - - - - - - - - - - - - - elements specific */
+/* home */
+.section-home a.title {
+  color: black;
+}
+
+.section-home h1 {
+  margin: 20px 0;
+}
+
+.section-home h1>em {
+  color: #d197a7;
+  font-style: normal;
+  -webkit-transition: color 500ms ease-in-out;
+  -moz-transition: color 500ms ease-in-out;
+  -ms-transition: color 500ms ease-in-out;
+  -o-transition: color 500ms ease-in-out;
+  transition: color 500ms ease-in-out;
+}
+
+.section-home a.title:hover {
+  text-decoration: none;
+}
+
+.section-home a.title:hover h1>em {
+  color: #e60c51;
 }
 
 .section-home article {
+  padding: 20px 0;
   background-color: #F7F7F7;
-  padding: 20px;
+
+  -webkit-box-shadow: inset 0px -4px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0px -4px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
+/* services */
 .section-services>article {
-  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 5px solid #d197a7;
 }
 
-.section-contacto {
-  color: #E7E7E8;
-  background-color: #262626;
-}
-
-article {
-  background-color: #EEE7D4;
-}
-
-article>header {
-  background-color: #FFF;
-}
-
-article>p {
-  /*min-height: 200px;*/
-}
-
-article h3 {
+.section-services>article h3 {
   border-top: 1px solid #262626;
   display: inline;
   padding-top: 0.2em;
   color: #262626;
 }
 
-article>.description {
-  padding: 2em 0;
+/* footer */
+footer {
+  padding: 20px 0;
+  color: #E7E7E8;
+  background-color: #383838;
 }
+
+footer p {
+  color: #000;
+  text-shadow: 0px 1px 1px #646464;
+  filter: dropshadow(color=#646464, offx=0, offy=1);
+  font-weight: bold;
+}
+
+footer input[type="text"] {
+  background-color: #272727;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
