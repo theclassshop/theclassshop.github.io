@@ -58,6 +58,7 @@ body>.wrapper {
 
 .section-home h1 {
   margin: 20px 0;
+  padding-left: 2em;
 }
 
 .section-home h1>em {
@@ -89,7 +90,7 @@ body>.wrapper {
 /* services */
 .section-services>article {
   padding-top: 2em;
-  border-top: 5px solid #d197a7;
+  /*border-top: 5px solid #d197a7;*/
 }
 
 .section-services>article h3 {
